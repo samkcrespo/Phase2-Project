@@ -314,6 +314,28 @@
           "Step7": " Let stand 10 minutes before cutting and Enjoy!"
         }
       ]
+    },
+    {
+      "name": "Literally The Best Egg Salad",
+      "image": "https://therecipecritic.com/wp-content/uploads/2019/02/besteggsalad.jpg",
+      "ingredients": [
+        "8 large eggs",
+        " 1/4 cup mayonnaise",
+        " ¼ cup dill minced",
+        " 2 tbsp chives minced",
+        " 2 tbsp dijon mustard",
+        " 1/2 tsp salt",
+        " ¼ tsp pepper"
+      ],
+      "instructions": [
+        {
+          "Step1": "Add the eggs to a saucepan and fill with cold water.  Bring water to a boil and immediately remove from heat.  Cover and let the eggs stand for 10-12 minutes.  Take the eggs out of the water and let cool.  "
+        },
+        {
+          "Step2": "Peel and chop the eggs and add them to a medium sized bowl.  Add mayonnaise, dill, chives, Dijon mustard, salt and pepper.  Mix well.  Spread on bread or use with your favorite crackers.  "
+        }
+      ],
+      "id": 11
     }
   ]
 }

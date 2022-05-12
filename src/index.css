@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -22,9 +22,9 @@ h1 {
 }
 
 .loading-image {
-  display:block;
+  display: block;
   margin: 0 auto;
-  }
+}
 
 /* styling <RecipeList /> */
 .cards {
@@ -33,7 +33,7 @@ h1 {
 
 .card {
   margin: 1rem;
-  box-shadow:7px 6px 10px 1px #FFB72B;
+  box-shadow: 7px 6px 10px 1px #ffb72b;
   border-radius: 15px;
 }
 
@@ -68,39 +68,38 @@ h1 {
   }
 }
 
-    .tagName {width: auto;
-    display: inline-block;
-    background: #fff;
-    margin: 80px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 40px;
-    color: rgba(0, 0, 0, 0.988);
-    letter-spacing: 2px;
-    font-family: Soleil, Helvetica, Arial, sans-serif;
-    padding: 0 20px;
-    text-transform: capitalize;
-    font-weight: bold;
-    height: 75px;
-    line-height: 75px;
-    margin: 0;
-    margin-top: 110px;
-    position: relative;
-    opacity: 0.8;
-    top: -60px;
-    letter-spacing: 6px;
+.tagName {
+  width: auto;
+  display: inline-block;
+  background: #fff;
+  margin: 80px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.988);
+  letter-spacing: 2px;
+  font-family: Soleil, Helvetica, Arial, sans-serif;
+  padding: 0 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  height: 75px;
+  line-height: 75px;
+  margin: 0;
+  margin-top: 110px;
+  position: relative;
+  opacity: 0.8;
+  top: -60px;
+  letter-spacing: 6px;
 }
 .column {
   float: left;
   width: 30%;
   padding-left: 150px;
-  
 }
 .column {
   float: left;
   width: 30%;
   padding-left: 150px;
-  
 }
 
 /* Clear floats after the columns */
@@ -110,35 +109,45 @@ h1 {
   clear: both;
 }
 
-.recipeName{
+.recipeName {
   font-weight: bold;
   font-size: 30px;
-  text-align: center
+  text-align: center;
 }
 
-.paddingClass{
+.paddingClass {
   padding-top: 70px;
   border-radius: 150;
 }
 
-.grow img{
+.grow img {
   transition: 1s ease;
   border-radius: 15px;
-  }
-  
-.grow img:hover{
+}
+
+.grow img:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   transition: 1s ease;
-  }
+}
 
-.paddingHeader{
+.paddingHeader {
   padding-top: 50px;
 }
-  
+
+.imageDiv {
+  box-shadow: 7px 7px 7px 7px #ffb72b;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.singleRecipeImg {
+  border-radius: 12px;
+}
+
 /* **************************** */
-.searchButton{
+.searchButton {
   padding: 50px;
 }
 
@@ -155,7 +164,7 @@ label {
 }
 
 .stepLabel {
-  padding-top: 40px
+  padding-top: 40px;
 }
 
 .otherLabels {
@@ -163,12 +172,12 @@ label {
 }
 
 .formButton {
-  background-color: #FFB72B;
+  background-color: #ffb72b;
   font-size: 1.5rem;
   margin: 1rem;
-  padding: 0.5rem 1.0rem;
-  border: 2px solid #FFB72B;
-  border-radius: 10px
+  padding: 0.5rem 1rem;
+  border: 2px solid #ffb72b;
+  border-radius: 10px;
 }
 
 .addButton {
@@ -207,9 +216,9 @@ label {
 /* <ShowSearchedRecipe /> */
 
 .searchCard {
-  justify-content:space-between;
+  justify-content: space-between;
   margin: 1rem;
-  box-shadow:7px 6px 10px 1px #FFB72B;
+  box-shadow: 7px 6px 10px 1px #ffb72b;
   width: 315px;
 }
 /* <ShowSearchedRecipe /> */
